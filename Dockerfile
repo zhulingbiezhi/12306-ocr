@@ -15,7 +15,7 @@ RUN apt-get update \
 
 COPY . .
 
-EXPOSE 8000
+EXPOSE 8009
 
 CMD [ "python", "main.py"]
 
